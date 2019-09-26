@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Live Fact-Checking Algorithms in the Era of Fake News
+title: Live Fact-Checking in the Era of Fake News
 excerpt: Fake news, political deception, and rumor mills are not new phenomena, but in recent years the internet has fueled an explosion of deliberate disinformation.
 ---
 
