@@ -54,9 +54,9 @@ We decided to use pre trained RoBERTA again, this time fine-tuning it on the top
   </thead>
   <tbody>
   <tr>
-   <td>Koursaros w/ Roberta
+    <td><b>Koursaros w/ Roberta</b>
    </td>
-   <td>73.64
+    <td><b>73.64</b>
    </td>
    <td>52
    </td>
