@@ -9,7 +9,7 @@ name: Koursaros
 description: A distributed, cloud-native platform for developing and deploying neural search and inference applications.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://github.com/crt68/koursaros/raw/master/.github/logo.svg?sanitize=true
+avatar: https://raw.githubusercontent.com/koursaros-ai/koursaros-ai.github.io/master/images/logo.png
 
 #
 # Flags below are optional
