@@ -39,17 +39,20 @@ We decided to use pre trained RoBERTA again, this time fine-tuning it on the top
 
 ## Results
 
-<table class = 'pure-table pure-table-border' >
-  <tr>
-   <th>Model
-   </th>
-   <th>Label Accuracy
-   </th>
-   <th>Evidence F1
-   </th>
-   <th>FEVER Score
-   </th>
-  </tr>
+<table class = 'pure-table pure-table-horizontal' >
+  <thead>
+    <tr>
+     <th>Model
+     </th>
+     <th>Label Accuracy
+     </th>
+     <th>Evidence F1
+     </th>
+     <th>FEVER Score
+     </th>
+    </tr>
+  </thead>
+  <tbody>
   <tr>
    <td>Koursaros w/ Roberta
    </td>
@@ -110,6 +113,7 @@ We decided to use pre trained RoBERTA again, this time fine-tuning it on the top
    <td>49.06
    </td>
   </tr>
+  </tbody>
 </table>
 
 
