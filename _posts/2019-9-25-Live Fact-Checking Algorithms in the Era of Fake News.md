@@ -39,6 +39,80 @@ We decided to use pre trained RoBERTA again, this time fine-tuning it on the top
 
 ## Results
 
+<table>
+  <tr>
+   <th>Model
+   </th>
+   <th>Label Accuracy
+   </th>
+   <th>Evidence F1
+   </th>
+   <th>FEVER Score
+   </th>
+  </tr>
+  <tr>
+   <td>Koursaros w/ Roberta
+   </td>
+   <td>73.64
+   </td>
+   <td>52
+   </td>
+   <td>63
+   </td>
+  </tr>
+  <tr>
+   <td>UNC-NLP
+   </td>
+   <td>68.21
+   </td>
+   <td>52.96
+   </td>
+   <td>64.21
+   </td>
+  </tr>
+  <tr>
+   <td>UCL ML
+   </td>
+   <td>67.62
+   </td>
+   <td>34.97
+   </td>
+   <td>62.52
+   </td>
+  </tr>
+  <tr>
+   <td>Athene UKP
+   </td>
+   <td>65.46
+   </td>
+   <td>36.97
+   </td>
+   <td>61.58
+   </td>
+  </tr>
+  <tr>
+   <td>MIT FAKTA
+   </td>
+   <td>59.35
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>Columbia-NLP
+   </td>
+   <td>57.45
+   </td>
+   <td>35.33
+   </td>
+   <td>49.06
+   </td>
+  </tr>
+</table>
+
+
 There are 2 primary outcomes we sought, which we mostly met, and a third development which was an unexpected and interesting discovery:
 
 
