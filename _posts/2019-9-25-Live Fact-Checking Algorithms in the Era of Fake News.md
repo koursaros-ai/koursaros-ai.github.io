@@ -39,7 +39,7 @@ We decided to use pre trained RoBERTA again, this time fine-tuning it on the top
 
 ## Results
 
-<table>
+<table class = 'pure-table pure-table-border' >
   <tr>
    <th>Model
    </th>
