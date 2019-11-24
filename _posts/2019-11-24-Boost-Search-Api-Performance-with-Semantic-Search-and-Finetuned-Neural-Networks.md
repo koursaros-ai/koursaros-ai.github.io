@@ -31,16 +31,16 @@ To make switching out models as easy as possible, we built a platform that is ag
 
 ### 3. It should be rippin' fast.
 
-<p align="left">
-<img src="https://github.com/koursaros-ai/nboost/raw/master/.github/rocket.svg?sanitize=true" width="50%">
-</p>
-
-
 In production, time is money. The longer search results take to get to the user, the more likely they are to [click away](https://www.thinkwithgoogle.com/marketing-resources/the-google-gospel-of-speed-urs-hoelzle/). Therefore, NBoost must be able to request, rank, and return search results from the search API without too much added latency. The ML libraries (which are written in Python) are the main hurdle for making it fast.
 
 To get around this, we stuck to low-level infrastructure. The proxy buffers the socket in order to capture only the search requests, and proxy everything else through (such as miscellaneous Elasticsearch requests not having anything to do with search). This is done with the python standard socket library (which is a thin wrapper around the C-library. To parse the http requests efficiently, NBoost uses the same [C-based Http-parsing library as NodeJs](https://github.com/MagicStack/httptools). If you want to read more, read [this article](https://colethienes.github.io/Implementing-a-URL-Selective-Proxy-in-Python/).
 
 The main tradeoff for NBoost is (almost) always speed vs accuracy. Larger models are more effective, but slower. Ranking fewer search results is faster, but yields less relevant results. In order to capture this tradeoff, [we benchmark the search boost vs query speed to compare different finetuned models](https://github.com/koursaros-ai/nboost#benchmarks). 
+
+<p align="left">
+<img src="https://github.com/koursaros-ai/nboost/raw/master/.github/rocket.svg?sanitize=true" width="30%">
+</p>
+
 
 ### 4. It should be elastic.
 
