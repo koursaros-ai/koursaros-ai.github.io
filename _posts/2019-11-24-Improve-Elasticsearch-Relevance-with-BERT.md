@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Boost Search API Performance (e.g. Elasticsearch) by 80% with Semantic Search and Finetuned Neural Networks
+title: Improve Elasticsearch Search Relevance by 80% with BERT
 ---
 
 [Semantic search](https://towardsdatascience.com/semantic-search-fuck-yeah-e371c0f639d) has generated a lot of hype recently by promising search engines that can understand the meaning behind a search, rather than just looking for keywords. However, the only people using and building these models are **Information Retrieval (IR)** researchers and their code is not easily transferrable to a production environment with real users. The best of the models that these researchers have developed are capable of impressive language understanding, topping the leaderboard of IR competition such as [MS MARCO](http://www.msmarco.org/) and [TREC-CAR](http://trec-car.cs.unh.edu/). These semantic search methods represent a significant improvement over traditional keyword search, as much as doubling standard search performance.
