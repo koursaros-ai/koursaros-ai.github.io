@@ -1,7 +1,14 @@
+---
+layout: post
+title: Building a Custom Search Relevance Training Set
+excerpt: There is a notable lack of large scale, easy to use, labeled data sets for information retrieval in most specific domains. We propose a method for generating them.
+
+---
+
 Building a Custom Search Relevance Training Set from Open Source Bing Queries
 --
 
-There is a notable lack of large scale, easy to use, labeled data sets for information retrieval in most specific domains.
+There is a notable lack of large scale, easy to use, labeled data sets for information retrieval in most specific domains. We propose a method for generating them.
 
 **This repo includes code to generate search queries and passages related to a specific domain or field of knowledge.** We achieve this by selecting a subset of the popular MS Marco dataset. The full MS Marco training set released by Microsoft is much too large to use in it's entirety as a training set.
 
